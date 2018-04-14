@@ -60,3 +60,11 @@
 - take a break from Swarm for meow
 - first pass at scaffolding [`buttcloud/buttcloud-provider`](https://github.com/buttcloud/buttcloud-provider)
   - have a working web server, browser app, and worker, but not yet complete to start feature development
+
+## 2018-04-14
+
+@dinosaur
+
+- more progress toward provider app scaffolding
+
+![buttcloud diary](./images/2018-04-14-buttcloud-landing.jpg)
