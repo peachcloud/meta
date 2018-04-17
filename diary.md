@@ -68,3 +68,28 @@
 - more progress toward provider app scaffolding
 
 ![buttcloud diary](./images/2018-04-14-buttcloud-landing.jpg)
+
+## 2018-04-15 to 2018-04-17
+
+@dinosaur
+
+provider app has landed!
+
+![provider app landing](./images/2018-04-17-buttcloud-landing.webm)
+
+- integrate `redux-bundler`
+- add emojis
+- found seamless background image to tile on landing page
+- start onboarding workflow
+- implement start step of onboarding
+  - validate forms on client
+  - validate service calls on server, show errors in form
+  - show success or failure messages as snackbar
+  - after form submission (which creates the user)
+    - generate json web token that identifies user
+    - send welcome email to next page of onboarding with token
+      - emails are sent by queuing a delayed job to a worker (`node-resque`)
+      - setup decent email templates with `mjml`
+    - store user in local storage in case they refresh page before progressing
+    - show help text on page
+  - allow user to resend onboarding email
