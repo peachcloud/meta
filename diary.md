@@ -93,3 +93,19 @@ provider app has landed!
     - store user in local storage in case they refresh page before progressing
     - show help text on page
   - allow user to resend onboarding email
+
+## 2018-04-18
+
+@ahdinosaur
+
+back to the infra side, during breakfast this morning i figured out why `buttcloud/butt` was failing!
+
+i had a hunch that it had to do with the address that `sbot` was binding to. i configured `host` as `example_butt-peer-server`, since that's how the Docker service was to be identified within the Docker network. but still, the health checker inside the service couldn't find it. i changed this to `0.0.0.0` and it works!
+
+did the same for the landing service. now the stack comes online, you can `curl -H "Host: example.butt.nz" localhost` and get the output from the landing page associated with `example.butt.nz` (proxied by `traefik`).
+
+next i added a [custom plugin to `butt-peer-server`](https://github.com/buttcloud/butt-peer/blob/3c4390907eebe18f98e5f5d9c839161b9d1e001e/server/plugins/address.js) that allows you to configure `externalHost`, in case it differs from `host`. this means we can bind to `host` (like `0.0.0.0`) but advertise our public multiserver address as `example.butt.nz` (like for invites).
+
+then, on a whim from @mischa, i went [back to `buttcloud-provider` to swap `redux-form` for `final-form`](https://github.com/buttcloud/buttcloud-provider/pull/4), easy as.
+
+made up some issues, want to step back to think about the next steps from here.
