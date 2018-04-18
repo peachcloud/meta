@@ -1,4 +1,4 @@
-# [ButtCloud](http://buttcloud.org)
+# [ButtCloud](http://buttcloud.org) :peach: :cloud:
 
 _better [Scuttlebutt](https://scuttlebutt.nz) cloud infrastructure and a hosted pub-as-a-service product._
 
