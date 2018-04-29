@@ -109,3 +109,33 @@ next i added a [custom plugin to `butt-peer-server`](https://github.com/buttclou
 then, on a whim from @mischa, i went [back to `buttcloud-provider` to swap `redux-form` for `final-form`](https://github.com/buttcloud/buttcloud-provider/pull/4), easy as.
 
 made up some issues, want to step back to think about the next steps from here.
+
+also made the ButtCloud logo!
+
+![ButtCloud logo](./images/logo.png)
+
+## 2018-04-19
+
+@ahdinosaur
+
+- setup contributor license agreement: https://github.com/buttcloud/meta/issues/6
+- setup kanbans
+  - [dev](https://github.com/orgs/buttcloud/projects/1)
+  - [ops](https://github.com/orgs/buttcloud/projects/2)
+  - [biz](https://github.com/orgs/buttcloud/projects/3)
+
+## 2018-04-26
+
+@ahdinosaur
+
+- start to separate pub and hub stacks in swarm setup: https://github.com/buttcloud/butt/commit/426deb39b9880100fe82ba5960da3d43fe74c452
+- worked on deploy for web app demo: https://github.com/buttcloud/buttcloud-provider/pull/9
+  - browser code is up at: <https://demo.buttcloud.org> (using netlify for free)
+  - api server is up at <https://buttcloud-demo.herokuapp.com/> (using heroku for free)
+
+## 2018-04-27
+
+@ahdinosaur
+
+- discovered and documented bug with `tinyify`: https://github.com/browserify/tinyify/issues/10
+- add standard style setup to web app: https://github.com/buttcloud/buttcloud-provider/pull/10
