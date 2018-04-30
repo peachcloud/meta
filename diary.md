@@ -139,3 +139,15 @@ also made the ButtCloud logo!
 
 - discovered and documented bug with `tinyify`: https://github.com/browserify/tinyify/issues/10
 - add standard style setup to web app: https://github.com/buttcloud/buttcloud-provider/pull/10
+
+## 2018-04-30
+
+@ahdinosaur
+
+- demo is now live! [demo.buttcloud.org](https://demo.buttcloud.org) :sheep:
+- renamed sub-projects to either `buttpub*` or `butthub*`, to standardize language: https://github.com/buttcloud/meta/issues/7
+- setup continuous integration for `butthub-provider`: https://github.com/buttcloud/butthub-provider/pull/11
+- setup ButtCloud account with OVH
+  - apply for their startup support program (for maybe $1k cloud credit): https://www.ovh.com/world/dlp/
+- play with `docker-machine` to create a local swarm across many machines
+  - get the swarm scripts from `buttpub` working, now across multiple virtual machines
