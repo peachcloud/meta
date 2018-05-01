@@ -151,3 +151,9 @@ also made the ButtCloud logo!
   - apply for their startup support program (for maybe $1k cloud credit): https://www.ovh.com/world/dlp/
 - play with `docker-machine` to create a local swarm across many machines
   - get the swarm scripts from `buttpub` working, now across multiple virtual machines
+
+## 2018-05-01
+
+@ahdinosaur
+
+started [`docker-up`](https://github.com/buttcloud/docker-up): opinionated glue to manage our Docker swarm
