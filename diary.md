@@ -157,3 +157,20 @@ also made the ButtCloud logo!
 @ahdinosaur
 
 started [`docker-up`](https://github.com/buttcloud/docker-up): opinionated glue to manage our Docker swarm
+
+## 2018-05-02
+
+@ahdinosaur
+
+continued with `docker-up`
+
+- ended up making a fun little continuable (`cb => {}`) based async flow control library in `./util/async.js`, maybe will publish as `flowstep`
+- realized that the Docker API doesn't handle the `docker stack *` functionality, that's implemented in the Docker CLI
+  - i learned that a "stack" is really a set of networks, volumes, and services each with a label "com.docker.stack.namespace" to reference the stack name
+  - have to decide whether
+    - a) to continue using the Docker API and implement that functionality ourselves
+    - b) to move to using the Docker CLI
+  - for now, will go with option a) !
+    - reading the Docker CLI code, it's not scary or complex
+    - this way we have more low-level control of the Docker Swarm
+    - this way we can focus on exactly what we need for ButtCloud
