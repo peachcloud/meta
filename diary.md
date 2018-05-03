@@ -174,3 +174,23 @@ continued with `docker-up`
     - reading the Docker CLI code, it's not scary or complex
     - this way we have more low-level control of the Docker Swarm
     - this way we can focus on exactly what we need for ButtCloud
+
+## 2018-05-03
+
+more `docker-up`, getting close to `v1`! :balloon:
+
+- add executable cli
+- clean up the api
+- fractal stacks!
+  - top-level config is a stack, with stacks all the way down
+  - each stack has services, networks, volumes, AND NESTED STACKS
+  - each stack _may_ have a name to namespace associated services
+- pretty configurable logging
+
+next up (notes to self):
+
+- better cli (take in resource type)
+- use explicit docker version in api requests
+- add "com.docker.stack.namespace" label to be legit docker stack
+
+gotta work with @Mischa on another contract meow, then Art~Hack! 
