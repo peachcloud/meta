@@ -194,3 +194,25 @@ next up (notes to self):
 - add "com.docker.stack.namespace" label to be legit docker stack
 
 gotta work with @Mischa on another contract meow, then Art~Hack! 
+
+## 2018-05-04
+
+@ahdinosaur
+
+- reviewed @austin's sweet pull request to `butthub-provider`: https://github.com/buttcloud/butthub-provider/pull/13
+- completed the "next up" features for `docker-up` in [the previous entry](%p6giuIpqWY242inxUqUdMi1RqVKU0JCPZZWJYjL1i8Q=.sha256)
+
+## 2018-05-07
+
+@ahdinosaur
+
+- published `docker-up/util/async.js` as [`callstep`](https://github.com/ahdinosaur/callstep), wrote up a splash of documentation :walking_man:
+
+## 2018-05-07
+
+@ahdinosaur
+
+- `docker-up`: add basic integration and unit tests using `ava`, clean up log and config wrappers using composable callsteps: https://github.com/buttcloud/docker-up/commit/29655b561b781331fc4b3a2455ea15e7360bb111
+  - cc @ike
+- `butthub-provider`: look into adding integration tests using `codecept`
+- not ButtCloud, but got sponsored by TickTack to improve `ssb-pub`: https://github.com/ahdinosaur/ssb-pub/pull/10
