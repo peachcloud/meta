@@ -208,7 +208,7 @@ gotta work with @Mischa on another contract meow, then Art~Hack!
 
 - published `docker-up/util/async.js` as [`callstep`](https://github.com/ahdinosaur/callstep), wrote up a splash of documentation :walking_man:
 
-## 2018-05-07
+## 2018-05-08
 
 @ahdinosaur
 
@@ -216,3 +216,9 @@ gotta work with @Mischa on another contract meow, then Art~Hack!
   - cc @ike
 - `butthub-provider`: look into adding integration tests using `codecept`
 - not ButtCloud, but got sponsored by TickTack to improve `ssb-pub`: https://github.com/ahdinosaur/ssb-pub/pull/10
+
+## 2018-05-09
+
+@ahdinosaur
+
+- `butthub-provider`: end-to-end acceptance testing with codecept: https://github.com/buttcloud/butthub-provider/pull/14
