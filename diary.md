@@ -227,10 +227,10 @@ gotta work with @Mischa on another contract meow, then Art~Hack!
 
 @ahdinosaur
 
-- `butthub-provider`: battled some end-to-end testing dragons: https://github.com/buttcloud/butthub-provider/pull/14
+- `butthub-provider`: battled some end-to-end testing dragons :dragon: : https://github.com/buttcloud/butthub-provider/pull/14
   - integrated the entire web app stack (api server, asset server, worker, and mailer) in the codecept process
   - at the end of the tests, the process was hanging, who was still running?
-  - with some help from `why-is-node-running` and heaps of reading dependency internals, started the journey to find every remaining handle, gotta catch 'em all!
+  - with some help from `why-is-node-running` and heaps of reading dependency internals, started the journey to find every remaining handle, gotta catch 'em all! :racehorse:
 
 ## 2018-05-11
 
@@ -238,17 +238,17 @@ gotta work with @Mischa on another contract meow, then Art~Hack!
 
 - `butthub-provider`: won the end-to-end test war: https://github.com/buttcloud/butthub-provider/pull/14
   - cleaned up every last handle, so the test process cleanly exists meow
-  - which means continuous integration now includes end-to-end server + browser tests!
-    - travis gives us a running postgres and redis database
+  - which means continuous integration now includes end-to-end server + browser tests! :raised_hands:
+    - travis gives us a running postgres and redis database, how nice
 - `butthub-provider`: finish a boring dependency upgrade: https://github.com/buttcloud/butthub-provider/pull/12
 - `docker-up`: https://github.com/buttcloud/docker-up/pull/4
   - the plan was to add update for services, but along the way i realized many things were broken:
-    - - each resource uses a different identifier!
+    - each resource uses a different identifier!
     - `down` should check if resource exists before `remove`
     - `up` returns output of inspect
   - [generic resource creator](https://github.com/buttcloud/docker-up/blob/55cb293d42e9ec8cf7d15394ad9115db2cb17f26/resources/generic.js) now takes:
     - `name`
     - `hasUpdate`: true for `service`, false otherwise
     - `idField`: network uses `Id, volume only has `Name`, service uses `ID`
-- `docker-up`: add continuous integration tests: https://github.com/buttcloud/docker-up/pull/5
-  - travis even gives us running docker to play with!
+- `docker-up`: add continuous integration tests: https://github.com/buttcloud/docker-up/pull/5 :white_check_mark:
+  - travis even gives us running docker to play with!    
