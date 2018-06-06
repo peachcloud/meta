@@ -1,4 +1,4 @@
-# [ButtCloud](http://buttcloud.org) :peach: :cloud:
+# [PeachCloud](http://peachcloud.org) :peach: :cloud:
 
 _better [Scuttlebutt](https://scuttlebutt.nz) cloud infrastructure and a hosted pub-as-a-service product._
 
@@ -12,7 +12,7 @@ see April 2018 grant proposal: [%HqwAsltORROCh4uyOq6iV+SsqU3OuNUevnq+5dwCqVI=.sh
 
 ## accounts
 
-- [GitHub](https://github.com/buttcloud)
+- [GitHub](https://github.com/peachcloud)
 - [Docker](https://hub.docker.com/u/buttcloud/)
-- [Twitter](https://twitter.com/buttcloudorg)
+- [Twitter](https://twitter.com/peachcloudorg)
 - [Email](mailto:buttcloudorg@gmail.com)
