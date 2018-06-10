@@ -251,4 +251,21 @@ gotta work with @Mischa on another contract meow, then Art~Hack!
     - `hasUpdate`: true for `service`, false otherwise
     - `idField`: network uses `Id, volume only has `Name`, service uses `ID`
 - `docker-up`: add continuous integration tests: https://github.com/buttcloud/docker-up/pull/5 :white_check_mark:
-  - travis even gives us running docker to play with!    
+  - travis even gives us running docker to play with!
+
+## 2018-05-15 - 2018-06-09
+
+@ahdinosaur
+
+- am starting to finally understand some advanced fp (functional programming) concepts like monads
+- `docker-up`: investigate using `sanctuary`
+- `docker-up`: port code to use `ramda`, `folktale`, `folktale-validations`, and `fluture`
+- `docker-up`: re-architect how everything works
+  - given next config, translate into docker api config
+  - fetch all current docker api config
+  - diff docker api current and next configs
+  - show diff to sysadmin
+  - if acceptable, translate the diff into docker api commands and run those
+- rename `docker-up` to `gyne`
+- rename ButtCloud to PeachCloud
+- get example swarm working across 3 virtual machines using `docker-machine` and `gyne`
