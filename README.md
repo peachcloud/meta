@@ -4,11 +4,7 @@ _better [Scuttlebutt](https://scuttlebutt.nz) cloud infrastructure and a hosted 
 
 see April 2018 grant proposal: [%HqwAsltORROCh4uyOq6iV+SsqU3OuNUevnq+5dwCqVI=.sha256](https://viewer.scuttlebot.io/%25HqwAsltORROCh4uyOq6iV%2BSsqU3OuNUevnq%2B5dwCqVI%3D.sha256)
 
-## kanban
-
-- [biz](https://github.com/orgs/buttcloud/projects/3)
-- [dev](https://github.com/orgs/buttcloud/projects/1)
-- [ops](https://github.com/orgs/buttcloud/projects/2)
+## [TODO](https://github.com/orgs/peachcloud/projects/4)
 
 ## accounts
 
