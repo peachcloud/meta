@@ -24,7 +24,7 @@ List of all packages manually-installed during development environment setup.
 
 _Note: This list may be incomplete and will be checked during the next phase of development._
 
-### Software
+### Software Setup
 
 Install Rust using [rustup](https://rustup.rs/):
 
@@ -36,7 +36,7 @@ Set Rust to nightly (necessary for compiling [Rocket](https://rocket.rs)):
 
 `rustup default nightly`
 
-### Hardware
+### Hardware Setup
 
 **RTC over I²C**
 
